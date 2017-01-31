@@ -1,0 +1,9 @@
+<h2 style="color:red;font-size: 35px"> Crear entrada</h2>
+
+
+
+<form method= "POST" action="">{% csrf_token %}
+{{ el_form.as_p }}
+<input type='submit' value='registrar entrada' />
+
+</form>

@@ -1,0 +1,8 @@
+$ django-admin startproject mysite // crear proyecto
+$ python manage.py startapp polls  // crear aplicacion 
+$ python manage.py runserver
+
+poner en settings.py en la parte de installed_apps entre 'la aplicacion' 
+
+en  admin ponemos los modelos creados ->admin.site.register(Post) 
+
